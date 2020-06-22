@@ -1,0 +1,16 @@
+/* CSS Document */
+:root{
+	--background-color-blue-gradient: linear-gradient(180deg, rgba(17,56,119,1) 37%, rgba(133,152,184,1) 69%, rgba(231,234,239,1) 87%); 
+	
+	
+}
+
+
+
+.img-fluid{
+	max-width: 100%
+}
+
+.background-color-blue{
+	background-color:linear-gradient(180deg, rgba(17,56,119,1) 37%, rgba(133,152,184,1) 69%, rgba(231,234,239,1) 87%); 
+}/*No se si se pude cambiar todo el color de fondo de la aplicacion*/
