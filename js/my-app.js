@@ -28,7 +28,28 @@ var app = new Framework7({
 		path: '/profile/',
     	url: 'profile.html',
     	name: 'profile',
+  		},
+		{
+		path: '/clases/',
+    	url: 'clases.html',
+    	name: 'clases',
+  		},
+		{
+		path: '/cursos/',
+    	url: 'cursos.html',
+    	name: 'cursos',
+  		},
+		{
+		path: '/info-g/',
+    	url: 'info-g.html',
+    	name: 'info-g',
+  		},
+		{
+		path: '/notas/',
+    	url: 'notas.html',
+    	name: 'notas',
   		}
+		
 	]
 });
 // Export selectors engine
@@ -37,3 +58,4 @@ var $$ = Dom7;
 $$('#btnAlerta').on('click',function() {
 	app.dialog.alert('Hola Diseño web 2');
 });
+
