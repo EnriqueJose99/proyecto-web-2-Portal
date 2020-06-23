@@ -2,12 +2,8 @@
 :root{
 	--background-color-blue-gradient: linear-gradient(180deg, rgba(17,56,119,1) 37%, rgba(133,152,184,1) 69%, rgba(231,234,239,1) 87%); 
 	--cirlce-color: #5373A8;
-	---azul-fondos:#123877;
+	--bg-azul: #123877;
 	
-}
-
-.settings-background{
-	background-color: #123877;
 }
 
 .nombre-usuario{
@@ -81,22 +77,46 @@
 	border-radius: 100%;
 }
 
-.nombre-usuario-settings{
-	font-size: 25px!important;
-	padding-bottom: -10px;
+
+.clases-1{
+	background-color: #113877;
+}
+
+.list-clases .list{
+	color: #fff;
+	background-color: #113877!important;
+}
+.nombre-u{
+	color: #fff;
+}
+.nombre-u h2{
+	color: #fff;
+	font-size: 15px;
+	margin-top: -0.5px;
+	font-weight:400
+}
+
+.center{
+	text-align: center;
+}
+.button{
+	color: var(--bg-azul);
+}
+
+.info-g{
+	text-align: center;
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.info-g h2{
+	text-align: center;
 	color: #fff;
 }
 
-.nombre-usuario-settings a{
-	font-size: 40px!important;
-	color: #fff;
-}
 
 
 
-.mover-boton-1, 
-.boton-cerrar-sesion{
-	margin-bottom: 50px;
-	background-color: #4A6FAC;
-}
+
+
 
