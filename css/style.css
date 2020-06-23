@@ -2,7 +2,12 @@
 :root{
 	--background-color-blue-gradient: linear-gradient(180deg, rgba(17,56,119,1) 37%, rgba(133,152,184,1) 69%, rgba(231,234,239,1) 87%); 
 	--cirlce-color: #5373A8;
+	---azul-fondos:#123877;
 	
+}
+
+.settings-background{
+	background-color: #123877;
 }
 
 .nombre-usuario{
@@ -75,3 +80,23 @@
 	background-color:var(--cirlce-color);
 	border-radius: 100%;
 }
+
+.nombre-usuario-settings{
+	font-size: 25px!important;
+	padding-bottom: -10px;
+	color: #fff;
+}
+
+.nombre-usuario-settings a{
+	font-size: 40px!important;
+	color: #fff;
+}
+
+
+
+.mover-boton-1, 
+.boton-cerrar-sesion{
+	margin-bottom: 50px;
+	background-color: #4A6FAC;
+}
+
