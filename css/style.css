@@ -9,11 +9,16 @@
 .nombre-usuario{
 	padding-bottom: 10%!important;
 	font-size: 14px;
+	color: #fff;
 }
 
 .nombre-usuario a{
 	margin-top: 18px;
-	color: #000;
+	color: #fff;
+}
+
+.move img{
+	padding-top: 50px;
 }
 
 
@@ -25,7 +30,7 @@
 	background-color:linear-gradient(180deg, rgba(17,56,119,1) 37%, rgba(133,152,184,1) 69%, rgba(231,234,239,1) 87%); 
 }/*No se si se pude cambiar todo el color de fondo de la aplicacion*/
 
-.contendor-1 i{
+.contendor-1 a{
 	font-size: 80px;
 	margin-left: 35px;
 	margin-bottom: 65px;
@@ -33,16 +38,7 @@
 	background-color: var(--cirlce-color);
 	border-radius: 100%;
 }
-.contendor-2 i{
-	font-size: 80px;
-
-	margin-left: 35px;
-	margin-bottom: 65px;
-	color: #fff;
-	background-color: var(--cirlce-color);
-	border-radius: 100%;
-}
-.contendor-3 i{
+.contendor-2 a{
 	font-size: 80px;
 
 	margin-left: 35px;
@@ -51,7 +47,16 @@
 	background-color: var(--cirlce-color);
 	border-radius: 100%;
 }
-.contendor-4 i{
+.contendor-3 a{
+	font-size: 80px;
+
+	margin-left: 35px;
+	margin-bottom: 65px;
+	color: #fff;
+	background-color: var(--cirlce-color);
+	border-radius: 100%;
+}
+.contendor-4 a{
 	font-size: 80px;
 
 	margin-left: 35px;
@@ -60,7 +65,7 @@
 	background-color:var(--cirlce-color);
 	border-radius: 100%;
 }
-.contendor-5 i{
+.contendor-5 a{
 	font-size: 80px;
 
 	margin-left: 35px;
@@ -68,7 +73,7 @@
 	background-color:var(--cirlce-color);
 	border-radius: 100%;
 }
-.contendor-6 i{
+.contendor-6 a{
 	font-size: 80px;
 
 	margin-left:35px;
@@ -113,6 +118,18 @@
 	text-align: center;
 	color: #fff;
 }
+
+.clases a{
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.clases .nota{
+	padding-left: 50px;
+	font-size: 20px;
+	color: #fff;
+}
+
 
 
 
