@@ -48,7 +48,32 @@ var app = new Framework7({
 		path: '/notas/',
     	url: 'notas.html',
     	name: 'notas',
-  		}
+  		},
+		{
+		path: '/contenido/',
+    	url: 'contenido.html',
+    	name: 'contenido',
+  		},
+		{
+		path: '/contenido-1/',
+    	url: 'contenido-1.html',
+    	name: 'contenido-1',
+  		},
+		{
+		path: '/recursos/',
+    	url: 'recursos.html',
+    	name: 'recursos',
+  		},
+		{
+		path: '/actividades/',
+    	url: 'actividades.html',
+    	name: 'actividades',
+  		},
+		{
+		path: 'biblio/',
+    	url: 'bibliografia.html',
+    	name: 'biblio',
+  		},
 		
 	]
 });
