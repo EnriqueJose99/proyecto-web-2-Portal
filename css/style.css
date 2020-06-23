@@ -112,7 +112,6 @@
 	text-align: center;
 	color: #fff;
 	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
 }
 .info-g h2{
 	text-align: center;
@@ -133,6 +132,71 @@
 .clases .clases-1{
 	margin-bottom: 50px;
 }
+.list-azul{
+	background-color: var(--bg-azul) !important;
+	font-size: 14px;
+}
+
+.list-clases .item-title-row::before{
+	color: #fff!important;
+}
+
+.list-c .item-inner{
+	color: #fff;
+}
+
+.item-media{
+	color: #fff!important;
+}
+.list-c .item-inner::before{
+	color: #fff!important;
+}
+.list-clases{
+	margin-top: -5px!important;
+}
+
+.titulo .block-title{
+	color: #fff;
+	margin-top: -35px!important;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 150px!important;
+}
+
+.list-1{
+	color: #fff;
+}
+.list-1 .item-inner::before{
+	color: #fff!important;
+}
+.list-1 .item-inner{
+	font-size: 18px!important;
+}
+
+.titulo .txt{
+	text-align: center;
+	color: rgba(248, 236, 236, 40%)!important;
+	margin-top: 60px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
