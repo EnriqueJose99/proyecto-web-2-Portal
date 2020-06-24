@@ -70,10 +70,21 @@ var app = new Framework7({
     	name: 'actividades',
   		},
 		{
-		path: 'biblio/',
+		path: '/bibliografia/',
     	url: 'bibliografia.html',
-    	name: 'biblio',
+    	name: 'bibliografia',
   		},
+		{
+		path: '/foro/',
+    	url: 'foro.html',
+    	name: 'foro',
+  		},
+		{
+		path: '/foro-1/',
+    	url: 'foro-1.html',
+    	name: 'foro-1',
+  		},
+		
 		
 	]
 });
