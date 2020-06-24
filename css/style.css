@@ -135,6 +135,7 @@
 .list-azul{
 	background-color: var(--bg-azul) !important;
 	font-size: 14px;
+	color: #fff;
 }
 
 .list-clases .item-title-row::before{
@@ -177,14 +178,40 @@
 	color: rgba(248, 236, 236, 40%)!important;
 	margin-top: 60px!important;
 }
+.titulo-1 .block-title{
+	color: #fff;
+	margin-top: -35px!important;
+	border-bottom: 1px solid #fff;
+}
+.text{
+	color: #fff;
+	margin-bottom: 70px;
+}
 
+.text-1{
+	color: #fff;
+	text-align: center;
+	font-weight: 500;
+	font-size: 15px;
+	margin-top: -25px;
+}
 
-
-
-
-
-
-
+.foro-1{
+	margin-top: 100px;
+	color: #fff;
+}
+.formulario .item-inner{
+	color: #fff;
+}
+.texto-1{
+	color: #fff!important;
+}
+.input-clear-button{
+	color: #fff;
+}
+.item-input-wrap{
+	color: #fff;
+}
 
 
 
