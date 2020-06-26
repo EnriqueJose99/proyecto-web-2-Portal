@@ -82,18 +82,23 @@
 	border-radius: 100%;
 }
 
-
+/*HECHO POR JEYSEL*/
 .clases-1{
 	background-color: #113877;
 }
 
+/*HECHO POR JEYSEL*/
 .list-clases .list{
 	color: #fff;
 	background-color: #113877!important;
 }
+
+/*HECHO POR JEYSEL*/
 .nombre-u{
 	color: #fff;
 }
+
+/*HECHO POR JEYSEL*/
 .nombre-u h2{
 	color: #fff;
 	font-size: 15px;
@@ -101,61 +106,80 @@
 	font-weight:400
 }
 
+/*HECHO POR JEYSEL*/
 .center{
 	text-align: center;
 }
+
+/*HECHO POR JEYSEL*/
 .button{
 	color: var(--bg-azul);
 }
 
+/*HECHO POR JEYSEL*/
 .info-g{
 	text-align: center;
 	color: #fff;
 	border-top: 1px solid #fff;
 }
+
+/*HECHO POR JEYSEL*/
 .info-g h2{
 	text-align: center;
 	color: #fff;
 }
 
+
+/*HECHO POR JEYSEL*/
 .clases a{
 	margin-left: 50px;
 	font-size: 20px;
 }
 
+
+/*HECHO POR JEYSEL*/
 .clases .nota{
 	padding-left: 50px;
 	font-size: 20px;
 	color: #fff;
 }
 
+/*HECHO POR JEYSEL*/
 .clases .clases-1{
 	margin-bottom: 50px;
 }
+
+/*HECHO POR JEYSEL*/
 .list-azul{
 	background-color: var(--bg-azul) !important;
 	font-size: 14px;
 	color: #fff;
 }
 
+/*HECHO POR JEYSEL*/
 .list-clases .item-title-row::before{
 	color: #fff!important;
 }
 
+/*HECHO POR JEYSEL*/
 .list-c .item-inner{
 	color: #fff;
 }
 
+/*HECHO POR JEYSEL*/
 .item-media{
 	color: #fff!important;
 }
 .list-c .item-inner::before{
 	color: #fff!important;
 }
+
+/*HECHO POR JEYSEL*/
 .list-clases{
 	margin-top: -5px!important;
 }
 
+/*HECHO POR JEYSEL*/
 .titulo .block-title{
 	color: #fff;
 	margin-top: -35px!important;
@@ -163,31 +187,42 @@
 	margin-bottom: 150px!important;
 }
 
+/*HECHO POR JEYSEL*/
 .list-1{
 	color: #fff;
 }
+
+/*HECHO POR JEYSEL*/
 .list-1 .item-inner::before{
 	color: #fff!important;
 }
+
+/*HECHO POR JEYSEL*/
 .list-1 .item-inner{
 	font-size: 18px!important;
 }
 
+/*HECHO POR JEYSEL*/
 .titulo .txt{
 	text-align: center;
 	color: rgba(248, 236, 236, 40%)!important;
 	margin-top: 60px!important;
 }
+
+/*HECHO POR JEYSEL*/
 .titulo-1 .block-title{
 	color: #fff;
 	margin-top: -35px!important;
 	border-bottom: 1px solid #fff;
 }
+
+/*HECHO POR JEYSEL*/
 .text{
 	color: #fff;
 	margin-bottom: 70px;
 }
 
+/*HECHO POR JEYSEL*/
 .text-1{
 	color: #fff;
 	text-align: center;
@@ -196,25 +231,56 @@
 	margin-top: -25px;
 }
 
+/*HECHO POR JEYSEL*/
 .foro-1{
 	margin-top: 100px;
 	color: #fff;
 }
+
+/*HECHO POR JEYSEL*/
 .formulario .item-inner{
 	color: #fff;
 }
+
+/*HECHO POR JEYSEL*/
 .texto-1{
 	color: #fff!important;
 }
+
+/*HECHO POR JEYSEL*/
 .input-clear-button{
 	color: #fff;
 }
+
+/*HECHO POR JEYSEL*/
 .item-input-wrap{
 	color: #fff;
 }
 
+/* css mila */
+.linea{
+	border-bottom: thin #fff solid !important;
+}
+.list-clases .item-title-row::before{
+	color: var(--bg-azul) !important;
+}
 
-
+.item-subtitle.unitec{
+	text-align: center;
+	font-size: 11px;
+}
+.item-title.unitec{
+	text-align: center !important;
+	padding-left: 25%;
+}
+.block-text{
+	text-align: center;
+}
+.item-title.terminos{
+	text-align: center!important;
+	padding-left: 25%;
+	padding-top: -70%;
+}
 
 .notif {
 	padding: 10% 0;
@@ -345,3 +411,6 @@
 	width: 300px;
 	margin: auto;
 }
+
+
+
