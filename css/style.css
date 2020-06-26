@@ -1,4 +1,4 @@
-/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 :root{
 	--background-color-blue-gradient: linear-gradient(180deg, rgba(17,56,119,1) 37%, rgba(133,152,184,1) 69%, rgba(231,234,239,1) 87%); 
 	--cirlce-color: #5373A8;
@@ -6,6 +6,11 @@
 	
 }
 
+/*CSS Enrique*/
+
+.body{
+	font-family: 'Montserrat', sans-serif;
+}
 .nombre-usuario{
 	padding-bottom: 10%!important;
 	font-size: 14px;
@@ -81,6 +86,46 @@
 	background-color:var(--cirlce-color);
 	border-radius: 100%;
 }
+
+.botones-settings .botones-edicion .editar-contra{
+	margin-top: 145px;
+	margin-bottom: 50px; 
+}
+
+.botones-settings .botones-edicion .cerrar-sesion{
+	background-color: #3D5171;
+	margin-top: 50px;
+}
+
+.guardado .clases-1 .texto-cambios{
+	font-size: 35px;
+	margin-top: 220px;
+	color: #fff;
+}
+
+.guardado .clases-1 .modi-arrow{
+	margin-top: 80px;
+	margin-left: 20px;
+}
+
+.botones-settings .botones-edicion .guardar-cambios{
+	background-color: #3D5171;
+	margin-top: 50px;
+}
+
+.foto-perfil span{
+	font-size: 150px;
+	margin-left: 117px!important;
+	color: #fff;
+}
+.icono-agregar span{
+	font-size: 40px!important;
+	margin-left: 230px!important;
+	margin-top: -20px!important;
+	color: #fff;
+}
+
+/*/Enrique*/
 
 /*HECHO POR JEYSEL*/
 .clases-1{
@@ -282,6 +327,8 @@
 	padding-top: -70%;
 }
 
+/*css Pite*/
+
 .notif {
 	padding: 10% 0;
 }
@@ -411,6 +458,3 @@
 	width: 300px;
 	margin: auto;
 }
-
-
-
