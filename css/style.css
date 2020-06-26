@@ -89,17 +89,37 @@
 
 .botones-settings .botones-edicion .editar-contra{
 	margin-top: 145px;
-	margin-bottom: 50px; 
+	margin-bottom: 50px;
+	background-color: #fff;
+	color: #000;
+	
+}
+
+.botones-settings .botones-edicion .editar-perfil{
+	margin-bottom: 50px;
+	background-color: #fff;
+	color: #000;
+	
 }
 
 .botones-settings .botones-edicion .cerrar-sesion{
-	background-color: #3D5171;
 	margin-top: 50px;
+	background-color: #fff;
+	color: #000;
 }
 
 .guardado .clases-1 .texto-cambios{
 	font-size: 35px;
 	margin-top: 220px;
+	color: #fff;
+}
+
+.button-white {
+	background-color: #fff;
+	color: #000;
+}
+.button-white:hover {
+	background-color: #000;
 	color: #fff;
 }
 
@@ -109,8 +129,9 @@
 }
 
 .botones-settings .botones-edicion .guardar-cambios{
-	background-color: #3D5171;
 	margin-top: 50px;
+	background-color: #fff;
+	color: #000;
 }
 
 .foto-perfil span{
@@ -302,6 +323,11 @@
 	color: #fff;
 }
 
+/*HECHO POR JEYSEL*/
+.espacio{
+	margin-bottom: 100px;
+}
+
 /* css mila */
 .linea{
 	border-bottom: thin #fff solid !important;
@@ -328,7 +354,6 @@
 }
 
 /*css Pite*/
-
 .notif {
 	padding: 10% 0;
 }
@@ -389,11 +414,8 @@
 	margin-top: 50px;
 }
 
-.button {
-	background-color: #5373A8;
-	color: #fff;
-	
-}
+
+
 .button:hover {
 	background-color: #fff;
 	color: #5373A8;
@@ -402,12 +424,10 @@
 .button-white {
 	background-color: #fff;
 	color: #000;
-	
 }
 .button-white:hover {
 	background-color: #000;
 	color: #fff;
-	
 }
 
 .spec {
