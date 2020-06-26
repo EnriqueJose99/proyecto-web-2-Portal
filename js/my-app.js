@@ -85,75 +85,22 @@ var app = new Framework7({
     	name: 'foro-1',
   		},
 		{
+		path: '/notificaciones/',
+    	url: 'notificaciones.html',
+    	name: 'notificaciones',
+  		},
+		{
+		path: '/calendario/',
+    	url: 'calendario.html',
+    	name: 'calendario',
+  		},
+		{
 		path: '/settings/',
     	url: 'settings.html',
     	name: 'settings',
-  		},
-		{
-		path: '/edicionvideo/',
-    	url: 'edicionvideo.html',
-    	name: 'edicionvideo',
-  		},
-		{
-		path: '/guion/',
-    	url: 'guion.html',
-    	name: 'guion',
-  		},
-		{
-		path: '/fotografia/',
-    	url: 'fotografia.html',
-    	name: 'fotografia',
-  		},
-		{
-		path: '/digital/',
-    	url: 'digital.html',
-    	name: 'digital',
-  		},
-		{
-		path: '/help/',
-    	url: 'help.html',
-    	name: 'help',
-  		},
-		{
-		path: '/configuracion/',
-    	url: 'configuracion.html',
-    	name: 'configuracion',
-  		},
-		{
-		path: '/editarcontraseña/',
-    	url: 'editarcontraseña.html',
-    	name: 'editarcontraseña',
-  		},
-		{
-		path: '/editarfoto/',
-    	url: 'editarfoto.html',
-    	name: 'editarfoto',
-  		},
-		{
-		path: '/numerostelefono/',
-    	url: 'numerostelefono.html',
-    	name: 'numerostelefono',
-  		},
-		{
-		path: '/info-personal/',
-    	url: 'info-personal.html',
-    	name: 'info-personal',
-  		},
-		{
-		path: '/correosunitec/',
-    	url: 'correosunitec.html',
-    	name: 'correosunitec',
-  		},
-		{
-		path: '/ubicaciones/',
-    	url: 'ubicaciones.html',
-    	name: 'ubicaciones',
-  		},
-		{
-		path: '/privacidad/',
-    	url: 'privacidad.html',
-    	name: 'privacidad',
-  		},
+  		}
+		
+		
 	]
 });
 // Export selectors engine
@@ -163,3 +110,17 @@ $$('#btnAlerta').on('click',function() {
 	app.dialog.alert('Hola Diseño web 2');
 });
 
+$$('#btnLogin').on('click', function(e){
+	e.preventDefault();
+	
+	var usuario = $$('#username').val();
+	var password = $$('#password').val();
+	
+	if (usuario == '11001100' && password == "password"){
+		$$('#nombre').html(usuario);
+		app.loginScreen.close('.login-screen');
+	}else{
+		app.dialog.alert('Los datos ingresados no son válidos. Para ingresar utilice el numero de cuenta: 11001100 y la contraseña: password');
+	} 	
+  
+});
