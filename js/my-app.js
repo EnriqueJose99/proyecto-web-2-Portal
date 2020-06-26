@@ -84,6 +84,16 @@ var app = new Framework7({
     	url: 'foro-1.html',
     	name: 'foro-1',
   		},
+		{
+		path: '/notificaciones/',
+    	url: 'notificaciones.html',
+    	name: 'notificaciones',
+  		},
+		{
+		path: '/calendario/',
+    	url: 'calendario.html',
+    	name: 'calendario',
+  		}
 		
 		
 	]
@@ -95,3 +105,17 @@ $$('#btnAlerta').on('click',function() {
 	app.dialog.alert('Hola Diseño web 2');
 });
 
+$$('#btnLogin').on('click', function(e){
+	e.preventDefault();
+	
+	var usuario = $$('#username').val();
+	var password = $$('#password').val();
+	
+	if (usuario == '11001100' && password == "password"){
+		$$('#nombre').html(usuario);
+		app.loginScreen.close('.login-screen');
+	}else{
+		app.dialog.alert('Los datos ingresados no son válidos. Para ingresar utilice el numero de cuenta: 11001100 y la contraseña: password');
+	} 	
+  
+});
