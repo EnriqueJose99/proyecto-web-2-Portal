@@ -213,135 +213,42 @@
 	color: #fff;
 }
 
-
-
-
-.notif {
-	padding: 10% 0;
+/* css mila */
+.linea{
+	border-bottom: thin #fff solid !important;
+}
+.list-clases .item-title-row::before{
+	color: var(--bg-azul) !important;
 }
 
-.titulo-blanco {
-	color: #fff;
-	font-size: 18px;
-	font-weight: 600;
-}
-.info {
-	color: #7B7B7B;
-	font-size: 14px;
-	font-weight: 500;
-}
-
-.subtitulo-blanco {
-	color: #fff;
-	font-size: 16px;
-	font-weight: 500;
-}
-
-.tabbar .tab-link-active{
-	background-color: #8599C7 !important;
-	color: #fff !important;
-}
-
-.noti .card {
-	background-color: var(--cirlce-color);
-	border-radius: 25px;
-	padding: 10px 15px;
-}
-.noti .card:last-child{
-	background-color: var(--cirlce-color);
-	border-radius: 25px;
-	padding: 10px 0px !important;
-	width: 200px;
-	margin: auto;
-}
-
-.noti span {
-	color: #7B7B7B;
-}
-
-.popup .block-title {
-	color: #FFFFFF;
-	font-size: 20px;
-	font-weight: 600;
+.item-subtitle.unitec{
 	text-align: center;
-	border-bottom: 1.5px solid #fff;
-	margin-top: 20px !important;
+	font-size: 11px;
 }
-.popup .block-title .borde{
-	color: #FFFFFF;
-	font-size: 20px;
-	font-weight: 600;
+.item-title.unitec{
+	text-align: center !important;
+	padding-left: 25%;
+}
+.block-text{
 	text-align: center;
-	border-bottom: 1.5px solid #fff;
-	margin-top: 50px;
+}
+.item-title.terminos{
+	text-align: center!important;
+	padding-left: 25%;
+	padding-top: -70%;
 }
 
-.button {
-	background-color: #5373A8;
-	color: #fff;
-	
-}
-.button:hover {
-	background-color: #fff;
-	color: #5373A8;
-	
-}
-.button-white {
-	background-color: #fff;
-	color: #000;
-	
-}
-.button-white:hover {
-	background-color: #000;
-	color: #fff;
-	
-}
 
-.spec {
-	margin-top: 18px;
-}
 
-.popup .row {
-	margin-bottom: 50px;
-}
-.comment .card{
-	padding: 50px;
-	background-color: var(--cirlce-color);
-}
 
-.notificaciones-botones .button {
-	margin: 15px 0;
-}
 
-#login .page{
-	background: linear-gradient(180deg,#113877 50%,#E7EAEF 50%);
-}
-#login .page-content {
-	background: linear-gradient(180deg,#113877 0%,#E7EAEF 100%);
-}
 
-#login input{
-	background-color: #5373A8 !important;
-	border-radius: 20px;
-	padding-left: 10px;
-}
 
-#login .list .item-label {
-	font-size: 16px;
-	color: #fff;
-	font-weight: 500;
-}
 
-.borde {
-	border: 1.5px solid #fff;
-	margin-top: 20px;
-}
 
-.calen .subtitulo-blanco{
-	font-size: 14px;
-	
-}
-.calendar img{
-	width: 300px;
-	margin: auto;
-}
+
+
+
+
+
+
