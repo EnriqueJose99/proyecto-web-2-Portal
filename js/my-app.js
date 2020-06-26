@@ -14,11 +14,17 @@ var app = new Framework7({
 		buttonOk: 'Aceptar',
   	},
 	routes: [
+		/*Enrique*/
 		{
 		path: '/home/',
     	url: 'index.html',
     	name: 'home',
 		},
+		{
+		path: '/notas/',
+    	url: 'notas.html',
+    	name: 'notas',
+  		},
 		{
 		path: '/about/',
     	url: 'about.html',
@@ -29,6 +35,32 @@ var app = new Framework7({
     	url: 'profile.html',
     	name: 'profile',
   		},
+		{
+		path: '/cambioContrasena/',
+    	url: 'cambioContrasena.html',
+    	name: 'cambioContrasena',
+  		},
+		{
+		path: '/cambioFotoPerfil/',
+    	url: 'cambioFotoPerfil.html',
+    	name: 'cambioFotoPerfil',
+  		},
+		{
+		path: '/cursosACTPREV/',
+    	url: 'cursosACTPREV.html',
+    	name: 'cursosACTPREV',
+  		},
+		{
+		path: '/cursosPrevios/',
+    	url: 'cursosPrevios.html',
+    	name: 'cursosPrevios',
+  		},
+		
+		/*/Enrique*/
+		
+		
+		
+		
 		/*HECHO POR JEYSEL*/
 		{
 		path: '/clases/',
@@ -46,11 +78,6 @@ var app = new Framework7({
 		path: '/info-g/',
     	url: 'info-g.html',
     	name: 'info-g',
-  		},
-		{
-		path: '/notas/',
-    	url: 'notas.html',
-    	name: 'notas',
   		},
 		/*HECHO POR JEYSEL*/
 		{
