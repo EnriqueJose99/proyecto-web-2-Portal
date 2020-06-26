@@ -14,7 +14,6 @@ var app = new Framework7({
 		buttonOk: 'Aceptar',
   	},
 	routes: [
-		/*Enrique*/
 		{
 		path: '/home/',
     	url: 'index.html',
@@ -55,37 +54,26 @@ var app = new Framework7({
     	url: 'cursosPrevios.html',
     	name: 'cursosPrevios',
   		},
-		
-		/*/Enrique*/
-		
-		
-		
-		
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/clases/',
     	url: 'clases.html',
     	name: 'clases',
   		},
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/cursos/',
     	url: 'cursos.html',
     	name: 'cursos',
   		},
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/info-g/',
     	url: 'info-g.html',
     	name: 'info-g',
   		},
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/contenido/',
     	url: 'contenido.html',
     	name: 'contenido',
   		},
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/contenido-1/',
     	url: 'contenido-1.html',
@@ -97,25 +85,21 @@ var app = new Framework7({
     	url: 'recursos.html',
     	name: 'recursos',
   		},
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/actividades/',
     	url: 'actividades.html',
     	name: 'actividades',
   		},
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/bibliografia/',
     	url: 'bibliografia.html',
     	name: 'bibliografia',
   		},
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/foro/',
     	url: 'foro.html',
     	name: 'foro',
   		},
-		/*HECHO POR JEYSEL*/
 		{
 		path: '/foro-1/',
     	url: 'foro-1.html',
@@ -167,9 +151,9 @@ var app = new Framework7({
     	name: 'configuracion',
   		},
 		{
-		path: '/editarcontraseña/',
-    	url: 'editarcontraseña.html',
-    	name: 'editarcontraseña',
+		path: '/editarcontra/',
+    	url: 'editarcontra.html',
+    	name: 'editarcontra',
   		},
 		{
 		path: '/editarfoto/',
@@ -224,3 +208,14 @@ $$('#btnLogin').on('click', function(e){
 	} 	
   
 });
+
+
+$$('#btnLogout').on('click', function(e){
+   	e.preventDefault();
+
+	app.loginScreen.open('.login-screen');
+	
+});
+
+
+
