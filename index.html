@@ -9,6 +9,7 @@
   		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   		<link rel="stylesheet" href="css/style.css">
 	</head>
+	
 	<body class = "color-theme-white">
 		<div id="app">
 			<!-- Your main view, should have "view-main" class -->
@@ -60,7 +61,7 @@
 								<div class="row">
 									<article class="col">
 										<div class="contendor-1">
-											<a  href="#" class="material-icons">notifications_active</a>
+											<a  href="/notificaciones/" class="material-icons">notifications_active</a>
 										</div>
 									</article>
 									<article class="col-50">
@@ -78,7 +79,7 @@
 									</article>
 									<article class="col">
 										<div class="contendor-4">
-											<a  href="#" class="material-icons">date_range</a>
+											<a  href="/calendario/" class="material-icons">date_range</a>
 
 										</div>
 									</article>
@@ -91,13 +92,65 @@
 									</article>
 									<article class="col">
 										<div class="contendor-6">
-											<a href="/help/" class="material-icons">library_books</a>
+											<a href="#" class="material-icons">library_books</a>
 										</div>
 									</article>
 								</div>
 							</div>
 					</article>
 				</section>
+				
+				<section id="login">
+		  	
+			  	<div class="login-screen modal-in">
+				  <!-- Default view-page layout -->
+				  <div class="view">
+					<div class="page login-screen-page">
+					  <!-- page-content has additional login-screen content -->
+					  <div class="page-content login-screen-content">
+						<img src="img/logo-blanco.png" class="img-fluid" alt="logo">
+						<!-- Login form -->
+						<form>
+						  <div class="list">
+							<ul>
+							  <li class="item-content item-input">
+								<div class="item-inner">
+								  <div class="item-title item-label">Usuario</div>
+								  <div class="item-input-wrap">
+									<input type="text" name="username" id="username" placeholder="Username">
+									<span class="input-clear-button"></span>
+								  </div>
+								</div>
+							  </li>
+							  <li class="item-content item-input">
+								<div class="item-inner">
+								  <div class="item-title item-label">Contraseña</div>
+								  <div class="item-input-wrap">
+									<input type="password" name="password" id="password" placeholder="Password">
+									<span class="input-clear-button"></span>
+								  </div>
+								</div>
+							  </li>
+							</ul>
+						  </div>
+						  <div class="list block">
+							<ul>
+							  <li>
+								<a href="#" id="btnLogin" class=" button-fill button-round button">Log In</a>
+							  </li>
+								
+							</ul>
+						
+						  </div>
+						</form>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			 
+		  </section>
+				
+				
 			</div>
 		</div>	
 		<script src="js/framework7.min.js"></script>
