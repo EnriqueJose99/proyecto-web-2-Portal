@@ -2,7 +2,7 @@
 var app = new Framework7({
 	id: 'com.app',
   	root: '#app',
-	theme: 'ios',
+	theme: 'md',
 	view: {
         pushState: false
     },
